@@ -30,7 +30,7 @@ describe Dictionary do
   end
 
   it 'can check whether a given keyword exists' do
-    @d.include?('fish').should be_false
+    @d.include?('fish').should equal false
   end
 
   it "doesn't cheat when checking whether a given keyword exists" do
